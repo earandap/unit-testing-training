@@ -1,4 +1,4 @@
-package org.earandap.training;
+package com.globant.training.domain;
 
 import org.codehaus.jackson.map.ObjectMapper;
 import org.codehaus.jackson.map.ser.CustomSerializerFactory;
@@ -6,7 +6,6 @@ import org.junit.Before;
 import org.junit.Test;
 
 import java.io.IOException;
-import java.io.StringWriter;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
