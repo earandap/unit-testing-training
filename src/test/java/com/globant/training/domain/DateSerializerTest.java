@@ -35,10 +35,12 @@ public class DateSerializerTest {
     }
 
     @Test
-    public void serializeTest() throws ParseException, IOException {
+    public void serializeTest() throws Exception {
         String date = "2015-11-26T14:49:11";
         Date dt = df.parse(date);
         assertEquals("\"" + date + "\"", mapper.writeValueAsString(dt));
     }
+
+
 
 }
